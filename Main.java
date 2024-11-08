@@ -15,7 +15,8 @@
 /**
  * Example below is of Abstract class, where it cannot be instantiated and must be extended.
  * Methods don't necessarily have to be implemented in this class. But final methods can be
- * and not changed in any subclass.
+ * and not changed in any subclass. Use an abstract class and inheritance if you can make the 
+ * statement: A IS-A B.
  *
  * Note: since getSpeed is not an abstract method, it cannot be called if bike is instantiated
  * like: Bike b = new HondaBike(...); It must be HondaBike b = new HondaBike();
@@ -57,7 +58,9 @@ class HondaBike extends Bike {
 /**
  * Example below is of an interface, also part of abstraction.
  * Can be used to achieve multiple inheritance in java and represents
- * an IS-A relationship. Is a blueprint of a class. Helps achieve loose coupling.
+ * an CAN-DO relationship. Use an interface if you can make the 
+ * statement: A CAN-DO B. Is a blueprint of a class. 
+ * Helps achieve loose coupling.
  * Interfaces can extend other interfaces.
  * https://www.javatpoint.com/interface-in-java
  */
