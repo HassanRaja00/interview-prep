@@ -1,4 +1,5 @@
-package lc_premium;
+package src;
+// package lc_premium;
 
 /*
  * Given two nodes of a binary tree p and q, return their lowest common ancestor (LCA).

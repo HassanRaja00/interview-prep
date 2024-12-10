@@ -1,0 +1,10 @@
+# Keep /bin and /lib directories
+/bin
+/lib
+
+# Ignore contents of /bin and /lib
+/bin/*
+/lib/*
+
+# Ignore .vscode directory and its contents
+.vscode/

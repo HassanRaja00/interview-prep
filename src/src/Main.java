@@ -1,3 +1,4 @@
+package src;
 /**
  * The 4 main principles of OOP are:
  * 1. Abstraction - the use of objects that represent complexity. This means objects are black boxes and 
